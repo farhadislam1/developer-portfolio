@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -21,7 +22,7 @@ section {
 }
 
 .half-width image {
-    width: 80%;
+    width: 50%;
 
 }
 
@@ -40,4 +41,10 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.mitu {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
